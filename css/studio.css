@@ -1,0 +1,59 @@
+/*Header link*/
+
+.hero {
+    background: #2F303A;
+}
+
+.hero .title {
+    color: var(--primary-white-color);
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+}
+
+/*Section*/
+.section-title {
+    color: var(--title-text-color);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+}
+
+.name {
+    color: var(--title-text-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.48px;
+}
+
+.speciality {
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.48px;
+}
+
+/*Peculiarities*/
+
+.about .title {
+    color: var(--title-text-color);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.about .text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+}
+
+/*Our team*/
+.team-color {
+    background: #F5F4FA;
+}

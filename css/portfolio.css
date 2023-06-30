@@ -1,0 +1,23 @@
+body {
+    background-color: var(--primary-white-color);
+}
+
+/*Gallery*/
+.gallery {
+    background-color: var(--primary-white-color);
+}
+
+.gallery .title {
+    color: var(--title-text-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 1.08px;
+}
+
+.gallery .text {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.48px;
+}
