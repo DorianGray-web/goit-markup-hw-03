@@ -1,3 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 :root {
     --primary-text-color: #757575;
     --title-text-color: #212121;
@@ -14,6 +24,13 @@ li {
     cursor: pointer;
 }
 
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+}
 
 
 .list {
@@ -43,6 +60,17 @@ body {
     color: var(--primary-text-color);
     background-color: var(--primary-white-color);
     text-decoration: none;
+}
+
+header {
+    background-color: var(--primary-white-color);
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: o auto;
 }
 
 /*Button*/
@@ -110,6 +138,11 @@ header {
 }
 
 /*Footer*/
+footer {
+    background: #2F303A;
+    text-decoration: none;
+}
+
 .adress {
     color: var(--primary-white-color);
     font-size: 14px;
@@ -130,9 +163,4 @@ header {
 .link-footer:hover,
 .link-footer:focus {
     color: var(--primary-white-color);
-}
-
-.footer {
-    background: #2F303A;
-    text-decoration: none;
 }

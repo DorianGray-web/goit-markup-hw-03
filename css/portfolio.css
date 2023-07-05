@@ -2,6 +2,12 @@ body {
     background-color: var(--primary-white-color);
 }
 
+button {
+    border-radius: 4px;
+    padding: 6px 22px;
+    min-width: 73px;
+}
+
 /*Gallery*/
 .gallery {
     background-color: var(--primary-white-color);

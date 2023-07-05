@@ -15,6 +15,12 @@
     text-transform: uppercase;
 }
 
+button {
+    border-radius: 6px;
+    padding: 10px 32px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
 /*Section*/
 .section-title {
     color: var(--title-text-color);
