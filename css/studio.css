@@ -2,6 +2,7 @@
 
 .hero {
     background: #2F303A;
+    text-align: center;
 }
 
 .hero .title {
@@ -10,7 +11,7 @@
     font-size: 44px;
     font-weight: 900;
     line-height: 1.36;
-    letter-spacing: 2.64px;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
 }
 
@@ -20,7 +21,7 @@
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    letter-spacing: 1.08px;
+    letter-spacing: 0.03em;
 }
 
 .name {
@@ -28,13 +29,13 @@
     text-align: center;
     font-size: 16px;
     font-weight: 500;
-    letter-spacing: 0.48px;
+    letter-spacing: 0.03em;
 }
 
 .speciality {
     text-align: center;
     font-size: 16px;
-    letter-spacing: 0.48px;
+    letter-spacing: 0.03em;
 }
 
 /*Peculiarities*/
@@ -43,14 +44,13 @@
     color: var(--title-text-color);
     font-size: 14px;
     font-weight: 700;
-    letter-spacing: 0.42px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .about .text {
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.42px;
+    letter-spacing: 0.03em;
 }
 
 /*Our team*/
