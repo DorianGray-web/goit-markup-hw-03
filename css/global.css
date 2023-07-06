@@ -37,6 +37,17 @@ ul {
     list-style: none;
 }
 
+section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: o auto;
+}
 
 .text-logo {
     color: var(--primary-link-color);
@@ -66,12 +77,13 @@ header {
     background-color: var(--primary-white-color);
 }
 
-.container {
+.nav-container {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: o auto;
 }
+
 
 /*Button*/
 .button {
@@ -97,6 +109,8 @@ header {
 
 /*Navigation*/
 header {
+    padding-top: 24px;
+    padding-bottom: 25px;
     background-color: var(--primary-white-color);
 }
 
@@ -139,6 +153,8 @@ header {
 
 /*Footer*/
 footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
     background: #2F303A;
     text-decoration: none;
 }

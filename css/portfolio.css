@@ -2,6 +2,11 @@ body {
     background-color: var(--primary-white-color);
 }
 
+.filters {
+    margin-bottom: 50px;
+    list-style: none;
+}
+
 button {
     border-radius: 4px;
     padding: 6px 22px;
@@ -9,6 +14,7 @@ button {
 }
 
 /*Gallery*/
+
 .gallery {
     background-color: var(--primary-white-color);
 }
@@ -23,6 +29,7 @@ li>a {
     font-weight: 700;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin-top: 20px;
 }
 
 .gallery .text {
@@ -30,4 +37,5 @@ li>a {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
+    margin-top: 4px;
 }

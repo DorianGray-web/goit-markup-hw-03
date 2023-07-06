@@ -6,6 +6,7 @@
 }
 
 .hero .title {
+    margin-bottom: 30px;
     color: var(--primary-white-color);
     text-align: center;
     font-size: 44px;
@@ -22,7 +23,10 @@ button {
 }
 
 /*Section*/
+
+
 .section-title {
+    margin-bottom: 50px;
     color: var(--title-text-color);
     text-align: center;
     font-size: 36px;
@@ -36,15 +40,21 @@ button {
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.03em;
+    margin-bottom: 10px;
 }
 
 .speciality {
+    margin-bottom: 30px;
     text-align: center;
     font-size: 16px;
     letter-spacing: 0.03em;
 }
 
 /*Peculiarities*/
+.no-padding {
+    padding-top: 0px;
+    padding-bottom: 94pt;
+}
 
 .about .title {
     color: var(--title-text-color);
@@ -55,11 +65,13 @@ button {
 }
 
 .about .text {
+    margin-top: 10px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
 /*Our team*/
 .team-color {
+    padding-top: 94px;
     background: #F5F4FA;
 }
