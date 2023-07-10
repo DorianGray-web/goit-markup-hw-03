@@ -35,6 +35,7 @@ ul {
 
 .list {
     list-style: none;
+    padding-left: 0px;
 }
 
 section {
@@ -174,15 +175,43 @@ header {
 
 /*Footer*/
 footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
 
     background: #2F303A;
     text-decoration: none;
 }
 
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 215px;
+    padding-left: 0px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+.footer .text-logo {
+    margin-bottom: 20px;
+}
+
+.footer-adress {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-adress>.list>.item:not(:last-child) {
+    display: block;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+
 .adress {
+
     color: var(--primary-white-color);
+
     line-height: 1.71;
     letter-spacing: 0.03em;
     font-style: normal;
