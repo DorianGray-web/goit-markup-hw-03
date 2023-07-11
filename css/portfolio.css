@@ -2,15 +2,31 @@ body {
     background-color: var(--primary-white-color);
 }
 
+.button-conteiner {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .filters {
+    display: flex;
+    justify-content: center;
     margin-bottom: 50px;
+    padding-left: 0;
+
     list-style: none;
 }
+
 
 button {
     border-radius: 4px;
     padding: 6px 22px;
     min-width: 73px;
+}
+
+.filters .flex-button+.flex-button {
+    margin-left: 8px;
 }
 
 /*Gallery*/
@@ -23,13 +39,34 @@ li>a {
     text-decoration: none;
 }
 
+.card-conteiner {
+    border: 3px solid teal;
+
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+
+.card>.item {
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-basis: calc((100% / 3) - 30px);
+}
+
+
 .gallery .title {
     color: var(--title-text-color);
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
     letter-spacing: 0.06em;
+
     margin-top: 20px;
+    margin-left: 24px;
 }
 
 .gallery .text {
@@ -37,5 +74,8 @@ li>a {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
+
     margin-top: 4px;
+    margin-left: 24px;
+    margin-bottom: 20px;
 }

@@ -24,6 +24,32 @@ button {
 
 /*Section*/
 
+.flex-cont {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+
+.item-peculiarities {
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-basis: calc((100% / 4) - 30px);
+}
+
+.item-work {
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-basis: calc((100% / 3) - 30px);
+}
+
+.item-team {
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-basis: calc((100% / 4) - 30px);
+
+    background-color: var(--primary-white-color);
+}
 
 .section-title {
     margin-bottom: 50px;
@@ -40,11 +66,14 @@ button {
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.03em;
+
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 
 .speciality {
     margin-bottom: 30px;
+
     text-align: center;
     font-size: 16px;
     letter-spacing: 0.03em;
