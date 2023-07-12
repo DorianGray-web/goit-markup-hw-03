@@ -25,6 +25,7 @@ button {
     background: var(--button-bcg-color);
     padding: 6px 22px;
     min-width: 73px;
+    height: 38px;
 }
 
 .filters .flex-button+.flex-button {
