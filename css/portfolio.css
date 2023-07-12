@@ -63,9 +63,12 @@ li>a {
     flex-basis: calc((100% / 3) - 30px);
 
     border: 1px solid var(--card-bcg-color);
-    background: var(--primary-white-color);
 }
 
+.item-container {
+    padding: 24px 20px;
+    background: var(--primary-white-color);
+}
 
 .gallery .title {
     color: var(--title-text-color);
@@ -73,9 +76,6 @@ li>a {
     font-weight: 700;
     line-height: 2;
     letter-spacing: 0.06em;
-
-    margin-top: 20px;
-    margin-left: 24px;
 }
 
 .gallery .text {
@@ -85,6 +85,4 @@ li>a {
     letter-spacing: 0.03em;
 
     margin-top: 4px;
-    margin-left: 24px;
-    margin-bottom: 20px;
 }

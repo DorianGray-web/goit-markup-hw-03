@@ -17,7 +17,8 @@ html {
     --footer-link-color: rgba(255, 255, 255, 0.60);
     --text-logo-accent: #000000;
     --button-bcg-color: #F5F4FA;
-    --card-bcg-color: #eeeeee;
+    --card-bcg-color: #EEEEEE;
+    --border-bottom-color: #ECECEC;
 }
 
 button,
@@ -88,8 +89,8 @@ body {
 
 header {
     background-color: var(--primary-white-color);
+    border-bottom: 1px solid var(--border-bottom-color);
 }
-
 
 
 
@@ -131,6 +132,10 @@ header {
     margin-left: 93px;
     font-weight: 500;
     letter-spacing: 0.02em;
+}
+
+.nav-menu .list {
+    display: flex;
 }
 
 .nav-menu .item:not(:last-child) {
@@ -181,6 +186,8 @@ header {
 
 /*Footer*/
 footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
     background: #2F303A;
     text-decoration: none;
 }
@@ -190,9 +197,6 @@ footer {
 .footer {
     display: flex;
     flex-direction: column;
-    padding-top: 60px;
-    padding-bottom: 60px;
-
 }
 
 .footer .text-logo {
@@ -204,10 +208,15 @@ footer {
     flex-direction: column;
 }
 
-.footer-adress>.list>.item:not(:last-child) {
+.footer-adress>.list {
     display: block;
+}
+
+.footer-adress>.list>.item {
+    display: flex;
     margin-top: 9px;
-    margin-bottom: 9px;
+    flex-direction: column;
+    flex-shrink: 0;
 }
 
 

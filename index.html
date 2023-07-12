@@ -25,7 +25,7 @@
                 Web<span class="text-logo-accent">Studio</span>
             </a>
             <nav class="nav-menu">
-                <ul class="nav-menu list">
+                <ul class="list">
                     <li class="item"><a href="./index.html" class="current">Студія</a></li>
                     <li class="item"><a href="./portfolio.html" class="link">Портфоліо</a></li>
                     <li class="item"><a href="./contacts.html" class="link">Контакти</a></li>
@@ -43,10 +43,15 @@
     </header>
     <main>
         <!--Hero-->
-        <div class="hero">
-            <h1 class="title">Ефективні рішення для вашого бізнесу</h1>
-            <button type="button" class="button primary">Замовити послугу</button>
-        </div>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-main-text">
+                    <h1 class="title">Ефективні рішення для вашого бізнесу</h1>
+                </div>
+
+                <button type="button" class="button primary">Замовити послугу</button>
+            </div>
+        </section>
         <!--Peculiarities-->
         <section class="about">
             <div class="container">
@@ -98,23 +103,31 @@
                 <ul class="list flex-cont">
                     <li class="item-team">
                         <img src="./img/img/img.jpg" alt="Візитка менеджера" width="270" height="260">
-                        <h3 class="name">Ігор Дем'яненко</h3>
-                        <p lang="en" class="speciality">Product Designer</p>
+                        <div class="card-container">
+                            <h3 class="name">Ігор Дем'яненко</h3>
+                            <p lang="en" class="speciality">Product Designer</p>
+                        </div>
                     </li>
                     <li class="item-team">
                         <img src="./img/img/img2.jpg" alt="Візитка менеджера" width="270" height="260">
-                        <h3 class="name">Ольга Рєпіна</h3>
-                        <p lang="en" class="speciality">Frontend Developer</p>
+                        <div class="card-container">
+                            <h3 class="name">Ольга Рєпіна</h3>
+                            <p lang="en" class="speciality">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="item-team">
                         <img src="./img/img/img3.jpg" alt="Візитка менеджера" width="270" height="260">
-                        <h3 class="name">Микола Тарасов</h3>
-                        <p lang="en" class="speciality">Marketing</p>
+                        <div class="card-container">
+                            <h3 class="name">Микола Тарасов</h3>
+                            <p lang="en" class="speciality">Marketing</p>
+                        </div>
                     </li>
                     <li class="item-team">
                         <img src="./img/img/img4.jpg" alt="Візитка менеджера" width="270" height="260">
-                        <h3 class="name">Михайло Єрмаков</h3>
-                        <p lang="en" class="speciality">UI Designer</p>
+                        <div class="card-container">
+                            <h3 class="name">Михайло Єрмаков</h3>
+                            <p lang="en" class="speciality">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
