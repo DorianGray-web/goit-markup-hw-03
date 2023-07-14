@@ -214,7 +214,7 @@ footer {
 
 .footer-adress>.list>.item {
     display: flex;
-    margin-top: 9px;
+    gap: 9px;
     flex-direction: column;
     flex-shrink: 0;
 }
