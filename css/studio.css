@@ -13,24 +13,19 @@
 
 .hero .title {
     margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
     color: var(--primary-white-color);
     text-align: center;
     font-size: 44px;
     font-weight: 900;
     line-height: 1.36;
     letter-spacing: 0.06em;
+    width: 696px;
     text-transform: uppercase;
 }
 
-.hero-main-text {
-    display: flex;
-    width: 696px;
-    margin-left: auto;
-    margin-right: auto;
 
-    flex-direction: column;
-    flex-shrink: 0;
-}
 
 button {
     border-radius: 6px;
@@ -60,6 +55,10 @@ button {
     margin-left: 30px;
     margin-top: 30px;
     flex-basis: calc((100% / 4) - 30px);
+}
+
+.item-peculiarities .title {
+    margin-bottom: 10px;
 }
 
 .item-work {
@@ -111,7 +110,7 @@ button {
 /*Peculiarities*/
 .no-padding {
     padding-top: 0px;
-    padding-bottom: 94pt;
+    padding-bottom: 94px;
 }
 
 .about .title {
