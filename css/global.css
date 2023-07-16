@@ -226,14 +226,19 @@ footer {
 
 .footer-adress>.list {
     display: block;
+    margin-top: 9px;
+}
+
+.footer-adress>.list>.item+.item {
+    margin-top: 9px;
 }
 
 .footer-adress>.list>.item {
     display: flex;
-    margin-top: 9px;
     flex-direction: column;
     flex-shrink: 0;
 }
+
 
 
 .adress {
